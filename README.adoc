@@ -27,9 +27,14 @@ endif::[]
 :git_url_api: https://github.com/{git_username}/{git_project_api}
 :git_url_spa: https://github.com/{git_username}/{git_project_spa}
 :git_url_insomnia: https://github.com/{git_username}/{git_project_insomnia}
-:git_url_current: {git_url_insomnia}
+:git_ssh_api: git@github.com:{git_username}/{git_project_api}
+:git_ssh_spa: git@github.com:{git_username}/{git_project_spa}
 :git_clone_ssh_api: git@github.com:{git_username}/{git_project_api}.git
 :git_clone_ssh_spa: git@github.com:{git_username}/{git_project_spa}.git
+
+:git_project_current: {git_project_insomnia}
+:git_url_current: {git_url_insomnia}
+:git_ssh_current: {git_ssh_insomnia}
 
 [#{back_to_top_target}]
 = {main_title}
