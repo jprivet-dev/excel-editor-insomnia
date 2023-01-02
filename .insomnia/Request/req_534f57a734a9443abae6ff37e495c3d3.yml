@@ -1,0 +1,37 @@
+_id: req_534f57a734a9443abae6ff37e495c3d3
+type: Request
+parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
+modified: 1672694903483
+created: 1672681976636
+url: "{{ _.base_api }}/data"
+name: 'data (DATE: use empty value "" instead of "null")'
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"nomDuGroupe": "Indochine {% now 'millis', '' %}",
+    	"origine": "France",
+    	"ville": "paris",
+    	"anneeDebut": "1981",
+    	"anneeSeparation": "",
+    	"fondateurs": "Nicola Sirkis et Dominique Nicolas",
+    	"membres": 5,
+    	"courantMusical": "pop rock",
+    	"presentation": "Indochine est un groupe de pop rock français originaire de Paris, formé par Nicola Sirkis et Dominique Nicolas en 1981. Le groupe est issu du courant new wave"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6fe52f8421c54205a5ce2cb92a70e7b2
+authentication: {}
+metaSortKey: -1660742260542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

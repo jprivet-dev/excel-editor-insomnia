@@ -1,0 +1,37 @@
+_id: req_af73c28e4a634cc5889f8b0b8645dfb1
+type: Request
+parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
+modified: 1672694920676
+created: 1672681976627
+url: "{{ _.base_api }}/data"
+name: data (all values are empty)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nomDuGroupe": "",
+    	"origine": "",
+    	"ville": "",
+    	"anneeDebut": "",
+    	"anneeSeparation": null,
+    	"fondateurs": "",
+    	"membres": "",
+    	"courantMusical": "",
+    	"presentation": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6fe52f8421c54205a5ce2cb92a70e7b2
+authentication: {}
+metaSortKey: -1660737121427
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

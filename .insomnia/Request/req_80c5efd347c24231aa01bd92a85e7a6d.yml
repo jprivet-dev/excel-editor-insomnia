@@ -1,0 +1,23 @@
+_id: req_80c5efd347c24231aa01bd92a85e7a6d
+type: Request
+parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
+modified: 1672694418325
+created: 1672681976617
+url: "{{ _.base_api }}/data/{% response 'body',
+  'req_f529142cc0d2473eac7e8bda36ff0d15', 'b64::JFswXS5pZA==::46b', 'never', 60
+  %}"
+name: data/{id} (DELETE firt element of GET request)
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660726843197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
