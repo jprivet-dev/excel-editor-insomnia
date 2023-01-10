@@ -1,17 +1,17 @@
 _id: req_997fbe9e13bd4e70ab9646a49138fa79
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1672694179943
+modified: 1673369601688
 created: 1672681976622
 url: "{{ _.base_api }}/data"
-name: data
+name: data (CREATE - Indochine)
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: >-
     {
-    	"nomDuGroupe": "Indochine {% now 'millis', '' %}",
+    	"nomDuGroupe": "Indochine",
     	"origine": "France",
     	"ville": "paris",
     	"anneeDebut": "1981",
@@ -19,7 +19,7 @@ body:
     	"fondateurs": "Nicola Sirkis et Dominique Nicolas",
     	"membres": 5,
     	"courantMusical": "pop rock",
-    	"presentation": "Indochine est un groupe de pop rock français originaire de Paris, formé par Nicola Sirkis et Dominique Nicolas en 1981. Le groupe est issu du courant new wave"
+    	"presentation": "Indochine est un groupe de pop rock français originaire de Paris, formé par Nicolas Sirkis et Dominique Nicolas en 1981. Le groupe est issu du courant new wave"
     }
 parameters: []
 headers:

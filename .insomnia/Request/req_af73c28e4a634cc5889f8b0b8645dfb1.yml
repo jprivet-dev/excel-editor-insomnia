@@ -1,10 +1,10 @@
 _id: req_af73c28e4a634cc5889f8b0b8645dfb1
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1672694920676
+modified: 1673343010560
 created: 1672681976627
 url: "{{ _.base_api }}/data"
-name: data (all values are empty)
+name: data (CREATE - all values are empty)
 description: ""
 method: POST
 body:

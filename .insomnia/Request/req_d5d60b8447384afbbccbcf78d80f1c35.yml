@@ -1,17 +1,19 @@
-_id: req_f529142cc0d2473eac7e8bda36ff0d15
+_id: req_d5d60b8447384afbbccbcf78d80f1c35
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1673342963432
-created: 1672681976611
-url: "{{ _.base_api }}/data"
-name: data (READ)
+modified: 1673344452520
+created: 1673344441792
+url: "{{ _.base_api }}/data/{% response 'body',
+  'req_f529142cc0d2473eac7e8bda36ff0d15', 'b64::JFswXS5pZA==::46b', 'never', 60
+  %}"
+name: data/{id} (READ firt element of GET request)
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660767956117
+metaSortKey: -1660731982312
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,17 +1,17 @@
-_id: req_f529142cc0d2473eac7e8bda36ff0d15
+_id: req_e588577f63514259ab57716d6a208a57
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1673342963432
-created: 1672681976611
-url: "{{ _.base_api }}/data"
-name: data (READ)
+modified: 1673347176289
+created: 1673347171260
+url: "{{ _.base_api }}/xxx"
+name: ERROR 404
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1660767956117
+metaSortKey: -1660706286712
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
