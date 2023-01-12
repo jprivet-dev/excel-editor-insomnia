@@ -1,13 +1,12 @@
 _id: env_37d11706e3f14d92ed1c5cf02f922daf35d53a52
 type: Environment
 parentId: wrk_c738c3ca8c514432bda249d7d9319c30
-modified: 1673361536515
+modified: 1673420809516
 created: 1672650457378
 name: Base Environment
 data:
   GLOBAL_HEADERS:
     Accept: application/json
-    Content-Type: application/json
   base_api: https://localhost/api
 dataPropertyOrder:
   "&":
@@ -15,7 +14,6 @@ dataPropertyOrder:
     - base_api
   "&~|GLOBAL_HEADERS":
     - Accept
-    - Content-Type
 color: null
 isPrivate: false
 metaSortKey: 1672650457378

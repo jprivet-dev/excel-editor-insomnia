@@ -1,14 +1,14 @@
 _id: req_877359ba3a594b54ac4022dfaf7c61f8
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1673385284626
+modified: 1673508630321
 created: 1672681976631
 url: "{{ _.base_api }}/data/{% response 'body',
   'req_f529142cc0d2473eac7e8bda36ff0d15', 'b64::JFswXS5pZA==::46b', 'never', 60
   %}"
 name: data/{id} (UPDATE firt element of GET request)
 description: ""
-method: PUT
+method: PATCH
 body:
   mimeType: application/json
   text: >-
@@ -25,9 +25,10 @@ body:
     }
 parameters: []
 headers:
-  - name: Content-Type
+  - id: pair_c22f61606a714fdfb6ab23222703ef36
+    name: Content-Type
     value: application/json
-    id: pair_60bd04a74d134aeb8fd12359b4af89f5
+    description: ""
 authentication: {}
 metaSortKey: -1660729412754.5
 isPrivate: false

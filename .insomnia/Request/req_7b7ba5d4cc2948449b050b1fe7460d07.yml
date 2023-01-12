@@ -1,0 +1,32 @@
+_id: req_7b7ba5d4cc2948449b050b1fe7460d07
+type: Request
+parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
+modified: 1673508622556
+created: 1673459843254
+url: "{{ _.base_api }}/data/{% response 'body',
+  'req_f529142cc0d2473eac7e8bda36ff0d15', 'b64::JFswXS5pZA==::46b', 'never', 60
+  %}"
+name: data/{id} (UPDATE firt element of GET request - ONLY title)
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nomDuGroupe": "Groupe de musique mis à jour à {% now 'millis', '' %}"
+    }
+parameters: []
+headers:
+  - id: pair_77c4c877573d40e783113fa162b351fb
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1660730697533.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

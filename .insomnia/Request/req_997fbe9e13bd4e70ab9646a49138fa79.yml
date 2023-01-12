@@ -1,7 +1,7 @@
 _id: req_997fbe9e13bd4e70ab9646a49138fa79
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1673369601688
+modified: 1673508588613
 created: 1672681976622
 url: "{{ _.base_api }}/data"
 name: data (CREATE - Indochine)
@@ -23,9 +23,10 @@ body:
     }
 parameters: []
 headers:
-  - name: Content-Type
+  - id: pair_dfa369ed40764c789261aae109f7cd10
+    name: Content-Type
     value: application/json
-    id: pair_6fe52f8421c54205a5ce2cb92a70e7b2
+    description: ""
 authentication: {}
 metaSortKey: -1660747399657
 isPrivate: false

@@ -1,10 +1,10 @@
 _id: req_f529142cc0d2473eac7e8bda36ff0d15
 type: Request
 parentId: fld_ebb227bf1acd42bea809e8182c8f4dec
-modified: 1673342963432
+modified: 1673454965758
 created: 1672681976611
 url: "{{ _.base_api }}/data"
-name: data (READ)
+name: data (LIST)
 description: ""
 method: GET
 body: {}
