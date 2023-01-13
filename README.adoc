@@ -51,6 +51,14 @@ Study of an API (Symfony) and a SPA (Angular), to load data in CSV/Excel format,
 | Insomnia - design, debug a test the API (https://insomnia.rest/) | {git_url_insomnia}
 |===
 
+{back_to_top}
+
+== Required plugins
+
+* Global Header: https://insomnia.rest/plugins/insomnia-plugin-global-headers
+
+{back_to_top}
+
 == Sync Insomnia with Git
 
 . Install Insomnia: https://docs.insomnia.rest/insomnia/install
@@ -60,6 +68,8 @@ Study of an API (Symfony) and a SPA (Angular), to load data in CSV/Excel format,
 In my case, I use the manual configuration of a remote repository. See https://docs.insomnia.rest/insomnia/git-sync#manually-set-up-a-remote-repository :
 
 image::doc/img/configuration-repository.png[]
+
+{back_to_top}
 
 == Comments, suggestions?
 
