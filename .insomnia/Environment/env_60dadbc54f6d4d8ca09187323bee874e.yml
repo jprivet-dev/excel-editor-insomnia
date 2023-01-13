@@ -1,0 +1,16 @@
+_id: env_60dadbc54f6d4d8ca09187323bee874e
+type: Environment
+parentId: env_37d11706e3f14d92ed1c5cf02f922daf35d53a52
+modified: 1673623904944
+created: 1673623877138
+name: Admin
+data:
+  username: admin@email.com
+  password: password
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+color: null
+isPrivate: false
+metaSortKey: 1673623877138

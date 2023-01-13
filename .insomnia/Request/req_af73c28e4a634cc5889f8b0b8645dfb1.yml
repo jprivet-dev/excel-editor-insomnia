@@ -1,7 +1,7 @@
 _id: req_af73c28e4a634cc5889f8b0b8645dfb1
 type: Request
 parentId: fld_7725e3fc2dca452a9df6b35c6892747e
-modified: 1673508649567
+modified: 1673623414319
 created: 1672681976627
 url: "{{ _.base_api }}/data"
 name: data (CREATE - all values are empty)
@@ -22,11 +22,7 @@ body:
     	"presentation": ""
     }
 parameters: []
-headers:
-  - id: pair_d2dffdfedaaf4b429227e6efc2fdb29c
-    name: Content-Type
-    value: application/json
-    description: ""
+headers: []
 authentication: {}
 metaSortKey: -1660742260492
 isPrivate: false

@@ -1,0 +1,16 @@
+_id: env_ad5aea22d4ab44ccafa875fe5b11ff9f
+type: Environment
+parentId: env_37d11706e3f14d92ed1c5cf02f922daf35d53a52
+modified: 1673623893514
+created: 1673623867346
+name: User
+data:
+  username: user@email.com
+  password: password
+dataPropertyOrder:
+  "&":
+    - username
+    - password
+color: null
+isPrivate: false
+metaSortKey: 1673623867346

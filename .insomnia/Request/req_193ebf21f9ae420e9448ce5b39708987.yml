@@ -1,0 +1,27 @@
+_id: req_193ebf21f9ae420e9448ce5b39708987
+type: Request
+parentId: fld_43cc89e3e28649c3b90f7a94c692c0a9
+modified: 1673623955770
+created: 1673623500523
+url: "{{ _.base_api }}/login_check"
+name: login_check (User of current environment)
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "{{ _.username }}",
+    	"password": "{{ _.password }}"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673623500523
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

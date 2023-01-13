@@ -1,0 +1,27 @@
+_id: req_b348f406a9424e94b73f449604862e8c
+type: Request
+parentId: fld_11f280f196f345f3aa71cbcd7cbfaf7a
+modified: 1673623732478
+created: 1673623687924
+url: "{{ _.base_api }}/login_check"
+name: 'login_check (error: "Invalid credentials.")'
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "wrong@email.com",
+    	"password": "wrong"
+    }
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671340293847.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
