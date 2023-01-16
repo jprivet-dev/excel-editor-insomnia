@@ -36,8 +36,13 @@ endif::[]
 :git_url_current: {git_url_insomnia}
 :git_ssh_current: {git_ssh_insomnia}
 
+// Releases
+:project_release: v0.0.0
+
 [#{back_to_top_target}]
 = {main_title}
+
+image:https://badgen.net/badge/release/{project_release}/blue[Project release,link=https://github.com/jprivet-dev/excel-editor-api/releases/tag/{project_release}]
 
 toc::[]
 
