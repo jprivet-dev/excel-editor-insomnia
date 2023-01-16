@@ -322,5 +322,5 @@ function bump_version_from_to() {
 	echo
 }
 
-FILES="README.adoc composer.json"
+FILES="README.adoc"
 bump_version_from_to "${FILES}"
