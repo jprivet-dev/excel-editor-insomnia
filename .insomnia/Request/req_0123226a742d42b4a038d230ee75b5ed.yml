@@ -1,19 +1,28 @@
-_id: req_80c5efd347c24231aa01bd92a85e7a6d
+_id: req_0123226a742d42b4a038d230ee75b5ed
 type: Request
 parentId: fld_0ea07a1341b14f01bffcede016100064
-modified: 1673681044213
-created: 1672681976617
+modified: 1673681021957
+created: 1673680731497
 url: "{{ _.base_api }}/data/{% response 'body',
   'req_f529142cc0d2473eac7e8bda36ff0d15', 'b64::JFswXS5pZA==::46b', 'never', 60
   %}"
-name: data/{id} (DELETE)
+name: data/{id} (UPDATE - ONLY id)
 description: ""
-method: DELETE
-body: {}
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": 9999
+    }
 parameters: []
-headers: []
+headers:
+  - id: pair_7221fde112954510a27425f60ede5218
+    name: Content-Type
+    value: application/json
+    description: ""
 authentication: {}
-metaSortKey: -1660731982318.25
+metaSortKey: -1660731982337
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

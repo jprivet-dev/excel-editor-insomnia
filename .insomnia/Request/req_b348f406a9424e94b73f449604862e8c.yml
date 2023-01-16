@@ -1,7 +1,7 @@
 _id: req_b348f406a9424e94b73f449604862e8c
 type: Request
 parentId: fld_11f280f196f345f3aa71cbcd7cbfaf7a
-modified: 1673623732478
+modified: 1673647719689
 created: 1673623687924
 url: "{{ _.base_api }}/login_check"
 name: 'login_check (error: "Invalid credentials.")'
@@ -15,7 +15,11 @@ body:
     	"password": "wrong"
     }
 parameters: []
-headers: []
+headers:
+  - id: pair_91cbd22b5de949a9bb0991d45d194afb
+    name: Content-Type
+    value: application/json
+    description: ""
 authentication: {}
 metaSortKey: -1671340293847.75
 isPrivate: false
