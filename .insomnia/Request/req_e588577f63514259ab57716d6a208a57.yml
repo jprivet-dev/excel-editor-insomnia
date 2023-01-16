@@ -1,0 +1,21 @@
+_id: req_e588577f63514259ab57716d6a208a57
+type: Request
+parentId: fld_7725e3fc2dca452a9df6b35c6892747e
+modified: 1673385557091
+created: 1673347171260
+url: "{{ _.base_api }}/xxx"
+name: ERROR 404
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660742260442
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

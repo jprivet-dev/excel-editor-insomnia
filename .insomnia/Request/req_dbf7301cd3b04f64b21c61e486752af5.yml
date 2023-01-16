@@ -1,0 +1,32 @@
+_id: req_dbf7301cd3b04f64b21c61e486752af5
+type: Request
+parentId: fld_b9d5a09ecee341238352c3895fe49406
+modified: 1673508150797
+created: 1673507877118
+url: "{{ _.base_api }}/upload"
+name: "upload (MISSING COLUMN - File: data-error-missing-column.xlsx)"
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_a2e6ed5ef5f74f588cdca60d69340d11
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: /home/jprivet/Repo/jprivet/excel-editor-api/data/data-error-missing-column.xlsx
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_ed027fa31c8b4442a44af0530139881d
+authentication: {}
+metaSortKey: -1658993488980.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

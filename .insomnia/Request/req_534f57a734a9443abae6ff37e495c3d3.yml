@@ -1,0 +1,38 @@
+_id: req_534f57a734a9443abae6ff37e495c3d3
+type: Request
+parentId: fld_7725e3fc2dca452a9df6b35c6892747e
+modified: 1673647757367
+created: 1672681976636
+url: "{{ _.base_api }}/data"
+name: 'data (CREATE - DATE: use empty value "" instead of "null")'
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"nomDuGroupe": "Groupe de musique {% now 'millis', '' %}",
+    	"origine": "France",
+    	"ville": "Paris",
+    	"anneeDebut": "1981",
+    	"anneeSeparation": "",
+    	"fondateurs": "Fondateur Un et Fondateur Deux",
+    	"membres": 5,
+    	"courantMusical": "pop rock",
+    	"presentation": "Groupe de musique pop rock français originaire de Paris, formé par le Fondateur Un et le Fondateur Deux en 1981. Le groupe est issu du courant new wave"
+    }
+parameters: []
+headers:
+  - id: pair_645253ce830e408cbdf3e72e350235ef
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1660742260542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

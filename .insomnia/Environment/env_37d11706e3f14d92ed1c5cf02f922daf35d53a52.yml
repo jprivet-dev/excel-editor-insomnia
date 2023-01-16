@@ -1,11 +1,26 @@
 _id: env_37d11706e3f14d92ed1c5cf02f922daf35d53a52
 type: Environment
 parentId: wrk_c738c3ca8c514432bda249d7d9319c30
-modified: 1672650457378
+modified: 1673647684504
 created: 1672650457378
 name: Base Environment
-data: {}
-dataPropertyOrder: null
+data:
+  GLOBAL_HEADERS:
+    Accept: application/json
+    Authorization: "{{ _.bearer_token }}"
+  base_api: https://localhost/api
+  token: "{% response 'body', 'req_193ebf21f9ae420e9448ce5b39708987',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+  bearer_token: Bearer {{ _.token }}
+dataPropertyOrder:
+  "&":
+    - GLOBAL_HEADERS
+    - base_api
+    - token
+    - bearer_token
+  "&~|GLOBAL_HEADERS":
+    - Accept
+    - Authorization
 color: null
 isPrivate: false
 metaSortKey: 1672650457378
