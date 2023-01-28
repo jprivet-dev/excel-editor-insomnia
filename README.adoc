@@ -48,12 +48,14 @@ toc::[]
 
 == Presentation
 
-Study of an API (Symfony) and a SPA (Angular), to load data in CSV/Excel format, with consultation and modification of this data online.
+Study of a {git_url_spa}[SPA (Angular/Docker)] and an {git_url_api}[API (Symfony/Docker)], which allow the loading of Excel files, as well as the consultation and the modification of its data online, according to the rights of the authenticated user.
+
+image::doc/img/excel-editor-architecture-diagram.png[]
 
 |===
-| API (Symfony/Docker) | {git_url_api}
 | SPA (Angular/Docker) | {git_url_spa}
-| Insomnia - design, debug a test the API (https://insomnia.rest/) | {git_url_insomnia}
+| API (Symfony/Docker) | {git_url_api}
+| Insomnia - design, debug and test the API (https://insomnia.rest/) | {git_url_insomnia}
 |===
 
 {back_to_top}
