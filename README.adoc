@@ -48,7 +48,7 @@ toc::[]
 
 == Presentation
 
-Study of a {git_url_spa}[SPA (Angular/Docker)] and an {git_url_api}[API (Symfony/Docker)], which allow the loading of Excel files, as well as the consultation and the modification of its data online, according to the rights of the authenticated user.
+Study of a {git_url_spa}[SPA (Angular)] and an {git_url_api}[API (Symfony)], with Excel files management (upload, consultation/modification of data, rights of the authenticated user).
 
 image::doc/img/excel-editor-architecture-diagram.png[]
 
