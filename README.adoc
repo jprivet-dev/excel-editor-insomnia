@@ -108,7 +108,9 @@ image::doc/img/step-10-homepage.png[]
 
 == Upload Excel files
 
-TIP: You can test and upload the Excel files in the {git_url_api_data}[data] folder of the {git_url_api}[Excel Editor API].
+In the *Upload* folder, you can test the requests and upload the Excel files in the {git_url_api_data}[data] folder of the {git_url_api}[Excel Editor API]:
+
+image::doc/img/upload-requests.png[]
 
 {back_to_top}
 
