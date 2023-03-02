@@ -1,7 +1,7 @@
 _id: req_c021c026add2494f8a84628c9bc17b63
 type: Request
 parentId: fld_11f280f196f345f3aa71cbcd7cbfaf7a
-modified: 1673647713616
+modified: 1677763127317
 created: 1673623638855
 url: "{{ _.base_api }}/login_check"
 name: 'login_check (error: "The key "username" must be provided")'
@@ -11,11 +11,7 @@ body:
   mimeType: application/json
   text: "{}"
 parameters: []
-headers:
-  - id: pair_0ea74a089f6a480a81c0f2d058e83659
-    name: Content-Type
-    value: application/json
-    description: ""
+headers: []
 authentication: {}
 metaSortKey: -1672101362739.5
 isPrivate: false
