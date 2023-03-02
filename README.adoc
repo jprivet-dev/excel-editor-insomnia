@@ -25,6 +25,7 @@ endif::[]
 :git_project_insomnia: {git_project_base}-insomnia
 :git_username: jprivet-dev
 :git_url_api: https://github.com/{git_username}/{git_project_api}
+:git_url_api_data: {git_url_api}/tree/main/data
 :git_url_spa: https://github.com/{git_username}/{git_project_spa}
 :git_url_insomnia: https://github.com/{git_username}/{git_project_insomnia}
 :git_ssh_api: git@github.com:{git_username}/{git_project_api}
@@ -71,6 +72,7 @@ image::doc/img/excel-editor-architecture-diagram.png[]
 == How to use this repo with Insomnia ?
 
 . Be sure to install the latest version of https://insomnia.rest/[Insomnia].
+. Fork https://github.com/jprivet-dev/excel-editor-insomnia.git.
 . Clone the project in Insomnia:
 ** Click on the *Create* menu, and choose *Git Clone*:
 +
@@ -80,7 +82,7 @@ image::doc/img/step-1-menu-create-git-clone.png[]
 image::doc/img/step-2-clone-repository-dialog.png[]
 +
 image::doc/img/step-3-connect-with-github.png[]
-** Use https://github.com/jprivet-dev/excel-editor-insomnia.git in *GitHub URI*:
+** Use the *HTTPS link to your fork* in *GitHub URI*:
 +
 image::doc/img/step-4-clone-repository.png[]
 ** Click on the button *Clone*. You arrive at the *DESIGN* tab of the project homepage:
@@ -98,9 +100,15 @@ image::doc/img/step-8-login-check.png[]
 . Click & Deploy *User* folder, choose *user* request and click on *Send* button. You have the user attached to the token:
 +
 image::doc/img/step-9-current-user.png[]
-. Click on the *Personal Projects* button to the homepage with all projects:
+. Click on the *Personal Projects* button to see the homepage with all projects:
 +
 image::doc/img/step-10-homepage.png[]
+
+{back_to_top}
+
+== Upload Excel files
+
+TIP: You can test and upload the Excel files in the {git_url_api_data}[data] folder of the {git_url_api}[Excel Editor API].
 
 {back_to_top}
 
