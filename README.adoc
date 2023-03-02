@@ -94,6 +94,8 @@ image::doc/img/step-6-debug-page.png[]
 . Choose *Admin* environment:
 +
 image::doc/img/step-7-choose-admin-environment.png[]
++
+TIP: You can use *Admin* or *User* environment.
 . Click & Deploy *Authentication* folder, choose *login_check* request and click on *Send* button. You can retrieve a token:
 +
 image::doc/img/step-8-login-check.png[]
