@@ -68,21 +68,47 @@ image::doc/img/excel-editor-architecture-diagram.png[]
 
 {back_to_top}
 
-== Required plugins
+== How to use this repo with Insomnia ?
 
-* Global Header: https://insomnia.rest/plugins/insomnia-plugin-global-headers
+. Be sure to install the latest version of https://insomnia.rest/[Insomnia].
+. Clone the project in Insomnia:
+** Click on the *Create* menu, and choose *Git Clone*:
++
+image::doc/img/step-1-menu-create-git-clone.png[]
+** *Authenticate with GitHub* if you haven't already done so:
++
+image::doc/img/step-2-clone-repository-dialog.png[]
++
+image::doc/img/step-3-connect-with-github.png[]
+** Use https://github.com/jprivet-dev/excel-editor-insomnia.git in *GitHub URI*:
++
+image::doc/img/step-4-clone-repository.png[]
+** Click on the button *Clone*. You arrive at the *DESIGN* tab of the project homepage:
++
+image::doc/img/step-5-design-page.png[]
+. Choose the *DEBUG* tab:
++
+image::doc/img/step-6-debug-page.png[]
+. Choose *Admin* environment:
++
+image::doc/img/step-7-choose-admin-environment.png[]
+. Click & Deploy *Authentication* folder, choose *login_check* request and click on *Send* button. You can retrieve a token:
++
+image::doc/img/step-8-login-check.png[]
+. Click & Deploy *User* folder, choose *user* request and click on *Send* button. You have the user attached to the token:
++
+image::doc/img/step-9-current-user.png[]
+. Click on the *Personal Projects* button to the homepage with all projects:
++
+image::doc/img/step-10-homepage.png[]
 
 {back_to_top}
 
-== Sync Insomnia with Git
+== Resources
 
-. Install Insomnia: https://docs.insomnia.rest/insomnia/install
-. Fork {git_url_insomnia} on your GitHub account
-. Sync Insomnia with your fork : https://docs.insomnia.rest/insomnia/git-sync
-
-In my case, I use the manual configuration of a remote repository. See https://docs.insomnia.rest/insomnia/git-sync#manually-set-up-a-remote-repository :
-
-image::doc/img/configuration-repository.png[]
+* https://insomnia.rest/
+* https://docs.insomnia.rest/
+* https://medium.com/thefork/get-the-most-out-of-insomnia-to-effectively-test-your-api-8a81f1349ef6
 
 {back_to_top}
 
