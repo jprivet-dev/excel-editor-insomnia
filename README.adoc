@@ -37,7 +37,7 @@ endif::[]
 :git_ssh_current: {git_ssh_insomnia}
 
 // Releases
-:project_release: v1.0.0
+:project_release: v1.1.0
 
 [#{back_to_top_target}]
 = {main_title}
