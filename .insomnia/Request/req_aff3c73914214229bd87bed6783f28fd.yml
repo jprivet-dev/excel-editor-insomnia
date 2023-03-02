@@ -1,7 +1,7 @@
 _id: req_aff3c73914214229bd87bed6783f28fd
 type: Request
 parentId: fld_b9d5a09ecee341238352c3895fe49406
-modified: 1673508034250
+modified: 1677763345460
 created: 1672681964955
 url: "{{ _.base_api }}/upload"
 name: "upload (WRONG FIELD - File: data.xlsx)"
@@ -17,10 +17,7 @@ body:
       type: file
       fileName: /home/jprivet/Repo/jprivet/excel-editor-api/data/data.xlsx
 parameters: []
-headers:
-  - name: Content-Type
-    value: multipart/form-data
-    id: pair_ed027fa31c8b4442a44af0530139881d
+headers: []
 authentication: {}
 metaSortKey: -1658993488930.5
 isPrivate: false
