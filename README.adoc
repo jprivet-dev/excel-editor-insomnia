@@ -98,6 +98,18 @@ image::doc/img/step-7-choose-admin-environment.png[]
 TIP: You can use *Admin* or *User* environment.
 . Click & Deploy *Authentication* folder, choose *login_check* request and click on *Send* button. You can retrieve a token:
 +
+[WARNING]
+====
+The very first time, you will have the following error:
+
+```
+Error: SSL peer certificate or SSH remote key was not OK
+```
+Click on *Disable SSL Validation* button and in **Insomnia Preference**s, uncheck *Validate certificates*.
+
+Close the dialog and click again on *Send* button.
+====
++
 image::doc/img/step-8-login-check.png[]
 . Click & Deploy *User* folder, choose *user* request and click on *Send* button. You have the user attached to the token:
 +
